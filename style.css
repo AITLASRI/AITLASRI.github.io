@@ -348,11 +348,11 @@ section{
     }
 }
 
-/* @media (max-width:5500px){
+@media (max-width:5500px){
     .main {
         background-position: 80% 75%;
     }
-} */
+}
 
 @media (max-width:300px){
     body{

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+:root {
+    --section_color_1: #b6d7fa;
+    --section_color_2: #ffffff;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,7 +15,7 @@
 }
 
 header {
-    background-color: #c3c3c3c7;
+    background-color: #f4f5f9ea;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -36,7 +42,7 @@ header {
 }
 
 .navigation a:hover{
-    color: crimson;
+    color: #4192d9;
 }
 
 section{
@@ -80,7 +86,7 @@ section{
 
 .main-btn {
     color: floralwhite;
-    background-color: rgb(118, 118, 237);
+    background-color: #93c2e2;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -93,7 +99,7 @@ section{
 }
 
 .main-btn:hover {
-    background-color: rgb(2, 2, 129);
+    background-color: #4192d9;
     transform: scale(1.1);
 }
 
@@ -104,7 +110,7 @@ section{
 }
 
 .bio{
-    background-color: #71737d;
+    background-color: var(--section_color_1);
     min-height: 100vh;
     min-width: 100%;
 }
@@ -141,6 +147,14 @@ section{
     flex-wrap: wrap;
 }
 
+.tools{
+    background-color: var(--section_color_2);
+}
+
+.certif {
+    background-color: var(--section_color_1);
+}
+
 .card {
     background-color: rgb(245, 245, 245);
     width: 21.25em;
@@ -166,7 +180,7 @@ section{
 }
 
 .icon {
-    color: rgb(118, 118, 237);
+    color: #93c2e2;
     font-size: 8em;
     text-align: center;
 }
@@ -197,7 +211,7 @@ section{
 }
 
 .projects{
-    background-color: #71737d;
+    background-color: var(--section_color_2);
 }
 
 .projects .content{
@@ -205,7 +219,7 @@ section{
 }
 
 .project-card{
-    background-color: rgb(118, 118, 237);
+    background-color: #78a4ed;
     border: 1.5px solid rgb(0, 0, 0);
     min-height: 12em;
     width: 20em;
@@ -246,12 +260,16 @@ section{
 
 .more-detais{
     text-decoration: none;
-    color: rgb(0, 0, 255);
+    color: #4192d9;
 
 }
 
 .more-detais:hover{
     color: rgb(59, 2, 112);
+}
+
+.contact{
+    background-color: var(--section_color_1);
 }
 
 .contact .card{
@@ -271,7 +289,7 @@ section{
 }
 
 .footer{
-    background-color: #33302b;
+    background-color: var(--section_color_1);
     color: #fff;
     padding: 2em;
     display: flex;
@@ -284,7 +302,7 @@ section{
 }
 
 .footer-title span{
-    color: #c3c3c3c7;
+    color: #2b3e53;
 }
 
 .footer .social-icons a{
